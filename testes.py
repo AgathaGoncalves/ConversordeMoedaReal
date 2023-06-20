@@ -6,6 +6,9 @@ class TestConversao(unittest.TestCase):
     def testConverterparYen(self):
         self.assertEqual(conversoes.converterYen(100),2974)
 
+    def testConverterDolar(self):
+        self.assertEqual(conversoes.converterDolar(10),2.1)
+
 
 if  __name__=='__main__':
     unittest.main()
