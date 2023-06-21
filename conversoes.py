@@ -8,3 +8,8 @@ def converterDolar(moedaReal):
     moedaReal = moedaReal*cambioDolar
     print('Teste da dolar', moedaReal)
     return moedaReal
+
+def converterEuro(moedaReal):
+    cambioEuro = 0.19
+    moedaReal = moedaReal*cambioEuro
+    return moedaReal
