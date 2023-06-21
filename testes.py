@@ -12,6 +12,8 @@ class TestConversao(unittest.TestCase):
     def testConverterparEuro(self):
         self.assertEqual(conversoes.converterEuro(1000),190)
 
+   def testConverterparLibra(self):
+        self.assertEqual(conversoes.converterLibra(10),1.60)
 
 if  __name__=='__main__':
     unittest.main()
