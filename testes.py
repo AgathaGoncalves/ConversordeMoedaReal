@@ -9,6 +9,9 @@ class TestConversao(unittest.TestCase):
     def testConverterDolar(self):
         self.assertEqual(conversoes.converterDolar(10),2.1)
 
+    def testConverterparEuro(self):
+        self.assertEqual(conversoes.converterEuro(1000),190)
+
 
 if  __name__=='__main__':
     unittest.main()
