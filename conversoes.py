@@ -13,3 +13,9 @@ def converterEuro(moedaReal):
     cambioEuro = 0.19
     moedaReal = moedaReal*cambioEuro
     return moedaReal
+
+def converterLibra(moedaReal):
+    cambioLibra = 0.16
+    moedaReal = moedaReal*cambioLibra
+    return moedaReal
+  
